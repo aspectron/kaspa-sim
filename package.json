@@ -1,0 +1,38 @@
+{
+	"name": "kaspa-sim",
+	"description": "kaspa-sim",
+	"finfr": {
+		"type": "application"
+	},
+	"scripts": {
+		"start": "node kaspa-sim.js"
+	},
+	"bin": {
+		"kaspa-sim": "kaspa-sim.js"
+	},
+	"main": "kaspa-sim.js",
+	"dependencies": {
+		"@aspectron/flow-http": "*",
+		"@aspectron/flow-router": "*",
+		"@aspectron/flow-utils": "*",
+		"@aspectron/flow-ux": ">=0.1.43",
+		"@aspectron/flow-logger": "*",
+		"@webcomponents/webcomponentsjs": "*",
+		"colors": "*",
+		"cookie": "*",
+		"cookie-signature": "*",
+		"express": "*",
+		"express-session": "*",
+		"is-docker": "*",
+		"lit-element": "*",
+		"multiparty": "*",
+		"nats": "rc",
+		"ws": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aspectron/kaspa-sim"
+	},
+	"license": "MIT",
+	"private": false
+}

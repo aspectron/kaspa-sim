@@ -1,0 +1,8 @@
+body.loading:after{
+    content:"";position:fixed;z-index:10000;
+    left:0px;top:0px;right:0px;bottom:0px;
+    background:rgb(255,255,255) no-repeat center;
+    background-image:url("/resources/images/spinner.svg");
+    background-size:100px auto;
+    min-height:100vh;
+}
